@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>연도별 OWASP TOP10</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="container flex">
+        <h1 class="logo">OWASP</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="2004.html">연도별 OWASP TOP10</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Head -->
+    <section class="docs-head bg-primary py-3">
+      <div class="container grid">
+        <div>
+          <h1 class="xl">연도별 OWASP TOP10</h1>
+          <p class="lead">2004년, 2007년, 2010년, 2013년, 2017년, 2021년</p>
+        </div>
+        <img src="images/docs.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Docs main -->
+    <section class="docs-main my-4">
+      <div class="container grid">
+        <div class="card bg-light p-3">
+          <h3 class="my-2">년도 선택</h3>
+          <nav>
+            <ul>
+              <li><a class="text-primary" href="2004.html">2004</a></li>
+              <li><a class="text-primary" href="2007.html">2007</a></li>
+              <li><a class="text-primary" href="2010.html">2010</a></li>
+              <li><a class="text-primary" href="2013.html">2013</a></li>
+              <li><a class="text-primary" href="2017.html">2017</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="card">
+          <h3>2013</h2>
+
+
+          <div class="alert alert-success">
+            <i class="fas fa-info"></i>
+            <ul>
+              <li>A1 Injection</li>
+              <li>A2 Broken Authentication and Session Management</li>
+              <li>A3 Cross-Site Scripting</li>
+              <li>A4 Insecure Direct Object References</li>
+              <li>A5 Security Misconfiguration</li>
+              <li>A6 Sensitive Data Exposure</li>
+
+              <li>A7 Missing Function Level Access Control</li>
+              <li>A8 Cross-Site Request Forgery</li>
+              <li>A9 Using Components with Known Vulnerabilities</li>
+              <li>A10 Unvalidated Redirects and Forwards</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+      <div class="container grid grid-3">
+        <div>
+          <h1>OWASP</h1>
+          <p><a href="https://owasp.org/">https://owasp.org</a></p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <!-- <li><a href="features.html">Features</a></li> -->
+            <li><a href="docs.html">년도별 OWASP</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="https://www.facebook.com/OWASPFoundation"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+          <a href="https://twitter.com/owasp"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
